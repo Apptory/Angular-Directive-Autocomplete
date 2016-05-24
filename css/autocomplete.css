@@ -1,0 +1,46 @@
+.apt-autocomplete-wrapper
+{
+    height: auto;
+    min-width: 400px;
+    border: 1px solid #efefef;
+    background-color: #fff;
+    z-index: 9000;
+    border-width: 0px 2px 2px;
+
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+.apt-autocomplete-wrapper ul
+{
+    height: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.apt-autocomplete-wrapper ul li
+{
+    height: auto;
+    border: none;
+    text-indent: 0.75rem;
+    margin: 0;
+    padding: 0.5rem 0;
+    text-align: left;
+}
+.apt-autocomplete-wrapper ul li:nth-child(odd)
+{
+
+}
+.apt-autocomplete-wrapper ul li:nth-child(even)
+{
+
+}
+.apt-autocomplete-wrapper ul li:hover, .apt-autocomplete-wrapper ul li.selected
+{
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+}
+.apt-autocomplete-wrapper ul li span
+{
+    cursor: pointer;
+}

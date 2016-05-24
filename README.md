@@ -1,2 +1,2 @@
 # Angular-Directive-Autocomplete
-Simple Autocomplete Directive For Angular Apps
+Simple and easy to implement angular autocomple module 
